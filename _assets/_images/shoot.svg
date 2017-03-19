@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg"    x="0" y="0" height="50" width = "50" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve" viewBox="0 0 50 50" version="1.1">
+	<g>
+	<circle cx = "25" cy = "25" r = "5" fill = "black"/>
+	<line x1 = "25" y1 = "50" x2 = "25" y2="0" stroke-width="3" stroke="black" fill = "none"/>
+	<line x1 = "50" y1 = "25" x2 = "0" y2="25" stroke-width="3" stroke="black" fill = "none"/>
+	<line x1 = "" y1 = "" x2 = "" y2="" stroke-width="3" stroke="black" fill = "none"/>
+	<circle cx = "25" cy = "25" r = "12" stroke-width="3" stroke="black" fill = "none"/>
+	<circle cx = "25" cy = "25" r = "22" stroke-width="3" stroke="black" fill = "none"/>
+	</g>
+</svg>

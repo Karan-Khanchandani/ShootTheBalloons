@@ -1,0 +1,90 @@
+.container, .left_screen, .right_screen,.sky, .ground{
+  position: absolute;
+}
+
+body{
+  background:#b1ccba;
+  height: 100%;
+  /*cursor: url(../_images/shoot.svg), auto;*/
+}
+
+.ground{
+  background: black;
+}
+
+svg{
+  display: block;
+  /*cursor: url(../_images/shoot.svg), auto;
+  */
+}
+
+.container{
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+}
+
+.left_screen{
+  width: 68%;
+  height: 97%;
+  margin:5px 10px;
+  border-radius: 5%;
+  border: 2px solid black;
+  top:0;
+  left:0;
+  overflow: hidden;
+}
+
+.right_screen{
+  width: 28%;
+  height: 97%;
+  top:0;
+  left:70%;
+  margin:5px 10px; 
+  overflow: hidden;
+}
+
+.rules{
+  width: initial;
+  height: 65%;
+  top:0;
+  left:0;
+  border-radius: 5%;
+  margin:2% 0;
+  border: 2px solid black;
+ 
+}
+
+.score{
+  width: initial;
+  height: 31%;
+  top:67%;
+  left:0;
+  margin:2px 0;
+  border-radius: 5%;
+  border: 2px solid black;
+}
+
+.sky{
+  width: 100%;
+  cursor: url(../_images/shoot.svg) 25 25, auto;
+  height: 70%;
+  border-top-left-radius:inherit;
+  border-top-right-radius:5%;
+  top:0;
+  left:0;
+}
+
+.ground{
+  width: 100%;
+  height: 30%;
+  border-bottom-left-radius:5%;
+  border-bottom-right-radius:5%;
+  top:70%;
+  left:0;
+  background:linear-gradient(#726151, #b7916f);;
+}
