@@ -3,7 +3,8 @@
 }
 
 body{
-  background:#b1ccba;
+ background: url(http://www.pixeden.com/media/k2/galleries/44/001-metal-and-carbon-fiber-pattern-background-texture.jpg);
+ 
   height: 100%;
   /*cursor: url(../_images/shoot.svg), auto;*/
 }
@@ -14,6 +15,8 @@ body{
 
 svg{
   display: block;
+  width: 100%;
+  height: 100%
   /*cursor: url(../_images/shoot.svg), auto;
   */
 }
@@ -29,6 +32,7 @@ svg{
 }
 
 .left_screen{
+  opacity: 1;
   width: 68%;
   height: 97%;
   margin:5px 10px;
@@ -40,6 +44,7 @@ svg{
 }
 
 .right_screen{
+   opacity: 1;
   width: 28%;
   height: 97%;
   top:0;
@@ -71,6 +76,7 @@ svg{
 
 .sky{
   width: 100%;
+  background: radial-gradient(#e5fbfc,#bef4f7);
   cursor: url(../_images/shoot.svg) 25 25, auto;
   height: 70%;
   border-top-left-radius:inherit;
@@ -87,4 +93,12 @@ svg{
   top:70%;
   left:0;
   background:linear-gradient(#726151, #b7916f);;
+}
+
+.ball{
+  background:url(../_images/bird.svg);
+  width:75px;
+  height:50px;
+  
+  position:absolute;
 }
